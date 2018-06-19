@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ServiceWorker demo</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|IBM+Plex+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <fieldset>
+
+        <div id="received-data" style="min-height: 300px"></div>
+        <input type="text" name="title" placeholder="Write your message">
+        <button id="send-server">Send message</button>
+
+        <button id="send-local">Test worker</button>
+
+
+    </fieldset>
+    <script src="./src/index.js"></script>
+    <script>app.start()</script>
+</body>
+
+</html>
